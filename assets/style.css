@@ -642,7 +642,9 @@ details[open] summary {
 .piano-video {
   display: block;
   width: 100%;
-  max-width: 640px;
+  max-width: min(100%, 640px);
+  height: auto;
+  aspect-ratio: 16 / 9;
   margin-top: 12px;
   border-radius: 14px;
   background: #000;
