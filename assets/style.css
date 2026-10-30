@@ -505,7 +505,7 @@ details[open] summary {
     padding: 24px 14px 36px;
   }
 
-  .top-nav {
+  .nav-links a:not(.lang-switch) {
     display: none;
   }
 
