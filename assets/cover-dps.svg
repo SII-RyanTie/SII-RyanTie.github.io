@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="NeurIPS 2026 Diffusion posterior sampling">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6fd0"/><stop offset="1" stop-color="#14b0b0"/></linearGradient></defs>
+  <rect width="480" height="300" fill="url(#g)"/>
+  <ellipse cx="330" cy="215" rx="45.0" ry="21" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="84.0" ry="39" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="123.0" ry="57" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="162.0" ry="76" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="201.0" ry="94" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="240.0" ry="112" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="279.0" ry="130" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <ellipse cx="330" cy="215" rx="318.0" ry="148" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
+  <text x="40" y="112" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#fff" letter-spacing="-1">NeurIPS 2026</text>
+  <text x="42" y="146" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#fff" opacity="0.88">Diffusion posterior sampling</text>
+</svg>

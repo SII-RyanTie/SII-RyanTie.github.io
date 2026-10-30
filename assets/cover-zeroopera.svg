@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="ICLR 2027 Singing voice synthesis">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d4bd1"/><stop offset="1" stop-color="#d14f8c"/></linearGradient></defs>
+  <rect width="480" height="300" fill="url(#g)"/>
+  <rect x="40" y="228.0" width="5" height="14.0" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="50" y="218.9" width="5" height="32.2" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="60" y="211.1" width="5" height="47.8" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="70" y="206.2" width="5" height="57.6" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="80" y="205.4" width="5" height="59.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="90" y="208.8" width="5" height="52.5" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="100" y="215.8" width="5" height="38.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="110" y="225.0" width="5" height="20.0" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="120" y="221.4" width="5" height="27.2" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="130" y="213.4" width="5" height="43.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="140" y="208.4" width="5" height="53.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="150" y="207.3" width="5" height="55.5" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="160" y="210.0" width="5" height="49.9" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="170" y="215.9" width="5" height="38.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="180" y="223.3" width="5" height="23.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="190" y="225.2" width="5" height="19.6" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="200" y="219.1" width="5" height="31.7" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="210" y="215.5" width="5" height="39.0" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="220" y="214.7" width="5" height="40.5" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="230" y="216.5" width="5" height="37.0" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="240" y="220.0" width="5" height="29.9" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="250" y="224.3" width="5" height="21.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="260" y="227.7" width="5" height="14.6" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="270" y="224.8" width="5" height="20.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="280" y="223.3" width="5" height="23.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="290" y="223.2" width="5" height="23.6" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="300" y="224.1" width="5" height="21.7" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="310" y="225.5" width="5" height="18.9" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="320" y="226.9" width="5" height="16.2" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="330" y="227.9" width="5" height="14.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="340" y="227.7" width="5" height="14.6" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="350" y="227.6" width="5" height="14.7" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="360" y="227.8" width="5" height="14.4" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="370" y="228.0" width="5" height="14.1" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="380" y="228.0" width="5" height="14.0" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="390" y="227.9" width="5" height="14.1" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="400" y="227.9" width="5" height="14.2" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="410" y="227.9" width="5" height="14.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="420" y="227.3" width="5" height="15.5" rx="2.5" fill="#fff" opacity="0.28"/>
+  <rect x="430" y="226.4" width="5" height="17.3" rx="2.5" fill="#fff" opacity="0.28"/>
+  <text x="40" y="112" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#fff" letter-spacing="-1">ICLR 2027</text>
+  <text x="42" y="146" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#fff" opacity="0.88">Singing voice synthesis</text>
+</svg>

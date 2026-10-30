@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="铁瑞安,复旦大学与上海创智学院博士生。研究生成式模型在歌声合成与气候降尺度中的应用。">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="铁瑞安 | 个人主页">
+  <meta property="og:description" content="生成式模型在歌声合成与气候降尺度中的应用。">
+  <title>铁瑞安 | 个人主页</title>
+  <link rel="icon" href="/assets/profile.jpg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <nav class="top-nav">
+      <div class="nav-name">铁瑞安</div>
+      <div class="nav-links">
+        <a href="#news">动态</a>
+        <a href="#publications">论文</a>
+        <a href="#projects">项目</a>
+        <a href="#experience">经历</a>
+        <a href="/">English</a>
+      </div>
+    </nav>
+
+    <section class="card hero">
+      <div>
+        <h1>铁瑞安 <span class="muted" style="font-weight:500;letter-spacing:0">Ruian Tie</span></h1>
+
+        <p class="identity">
+          博士研究生<br>
+          复旦大学 &amp; 上海创智学院
+        </p>
+
+        <p class="about-line">
+          我研究生成式模型(Flow Matching、扩散模型),一直在想同一个问题:预训练好的生成式先验,能不能在不重新训练的前提下复用到新的任务和新的域上?目前这条线落在两个方向:零样本歌声合成(尤其是戏曲这类低资源垂域,以及演唱技巧的可控生成),以及气候与高维时空数据的降尺度。
+        </p>
+
+        <div class="links">
+          <a class="pill-link" href="mailto:25113050118@m.fudan.edu.cn">Email</a>
+          <a class="pill-link" href="https://github.com/SII-RyanTie" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="pill-link" href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a class="pill-link" href="/">English</a>
+        </div>
+      </div>
+
+      <div class="profile-photo-wrap">
+        <img src="/assets/profile.jpg" alt="铁瑞安" class="profile-photo" width="128" height="128">
+      </div>
+    </section>
+
+    <section class="card" id="news">
+      <h2>动态</h2>
+      <ul class="news-list">
+        <li><span class="news-date">2026.10</span><span>一作论文 <em>ZeroOpera</em> 投稿 ICLR 2027。</span></li>
+        <li><span class="news-date">2026</span><span><em>Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</em> 被 NeurIPS 2026 接收。</span></li>
+        <li><span class="news-date">2026</span><span>三维风场重建工作(共同一作)发表于 <em>Nature Communications</em>。</span></li>
+        <li><span class="news-date">2026</span><span>气候极端事件的生成式预估工作入选 EGU 2026 年会 highlight oral。</span></li>
+      </ul>
+    </section>
+
+    <section class="card" id="publications">
+      <h2>代表论文</h2>
+
+      <div class="publication-card">
+        <div class="publication-cover-wrap">
+          <img src="/assets/cover-zeroopera.svg" alt="ICLR 2027,歌声合成" class="publication-cover" width="480" height="300">
+        </div>
+        <div>
+          <div class="item-title">
+            ZeroOpera: Zero-Shot Peking Opera Singing Voice Synthesis via Prior-Guided Inpainting and Enhancement
+          </div>
+          <div class="authors"><span class="me">Ruian Tie</span>, et al.</div>
+          <div class="highlight">
+            <span class="highlight-label">亮点:</span>
+            用流行乐基座生成的 Mel 谱作结构先验,通过掩码做局部修复和戏曲技巧的全局增强;再用音系调制模块处理未见的戏曲发音。相比 SoulX-Singer,PER 降低 19.4%,音色相似度提升 0.43 MOS。
+          </div>
+          <div class="muted">ICLR 2027 在投(第一作者)</div>
+          <span class="tag">Singing Voice Synthesis</span>
+          <span class="tag">Acoustic Inpainting</span>
+          <span class="tag">FiLM</span>
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="publication-cover-wrap">
+          <img src="/assets/cover-dps.svg" alt="NeurIPS 2026,扩散后验采样" class="publication-cover" width="480" height="300">
+        </div>
+        <div>
+          <div class="item-title">
+            Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling
+          </div>
+          <div class="authors"><span class="me">R. Tie</span>, W. Xiong, Z. Shi, et al.</div>
+          <div class="highlight">
+            <span class="highlight-label">亮点:</span>
+            潜空间扩散后验采样,结合扩散先验与渐进式蒸馏,无需重新训练、也无需成对数据即可做统计降尺度。
+          </div>
+          <div class="muted">NeurIPS 2026(第一作者)</div>
+          <div class="mini-links">
+            <a class="mini-link" href="https://arxiv.org/abs/2601.21760" target="_blank" rel="noopener noreferrer">arXiv</a>
+          </div>
+          <span class="tag">Diffusion Prior</span>
+          <span class="tag">Posterior Sampling</span>
+          <span class="tag">Progressive Distillation</span>
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="publication-cover-wrap">
+          <img src="/assets/cover-nature.svg" alt="Nature Communications,三维风场重建" class="publication-cover" width="480" height="300">
+        </div>
+        <div>
+          <div class="item-title">
+            Reconstructing fine-scale 3D wind fields with terrain-informed machine learning
+          </div>
+          <div class="authors">C. Lin*, <span class="me">R. Tie*</span>, S. Yi, et al.</div>
+          <div class="highlight">
+            <span class="highlight-label">亮点:</span>
+            结合地形信息的机器学习,重建精细尺度三维风场;涉及域迁移与数据同化。
+          </div>
+          <div class="muted">Nature Communications, 2026(* 共同第一作者)</div>
+          <span class="tag">Domain Transfer</span>
+          <span class="tag">Data Assimilation</span>
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="publication-cover-wrap">
+          <img src="/assets/cover-egu.svg" alt="EGU 2026,气候极端事件预估" class="publication-cover" width="480" height="300">
+        </div>
+        <div>
+          <div class="item-title">
+            Generative artificial intelligence improves projections of climate extremes
+          </div>
+          <div class="authors"><span class="me">R. Tie</span>, X. Zhong, Z. Shi, et al.</div>
+          <div class="highlight">
+            <span class="highlight-label">亮点:</span>
+            用 Flow Matching、域适应和潜空间扩散改进气候模式对极端事件的预估。
+          </div>
+          <div class="muted">arXiv:2508.16396, 2025 · EGU 2026 highlight oral(第一作者)</div>
+          <div class="mini-links">
+            <a class="mini-link" href="https://arxiv.org/abs/2508.16396" target="_blank" rel="noopener noreferrer">arXiv</a>
+          </div>
+          <span class="tag">Flow Matching</span>
+          <span class="tag">Domain Adaptation</span>
+          <span class="tag">Latent Diffusion</span>
+        </div>
+      </div>
+
+      <div class="more-block">
+        <details>
+          <summary>更早的工作:深度学习降尺度</summary>
+          <ul class="older-list">
+            <li><span class="me">R. Tie</span>, C. Shi, M. Li, et al. Improve the downscaling accuracy of high-resolution precipitation field using classification mask. <em>Atmospheric Research</em>, 310: 107607, 2024.</li>
+            <li><span class="me">R. Tie</span>, C. Shi, G. Wan, et al. To accurately and lightly downscale the temperature field by deep learning. <em>Journal of Atmospheric and Oceanic Technology</em>, 39(4): 479–490, 2022.</li>
+            <li><span class="me">R. Tie</span>, C. Shi, G. Wan, et al. CLDASSD: reconstructing fine textures of the temperature field using super-resolution technology. <em>Advances in Atmospheric Sciences</em>, 39(1): 117–130, 2022.</li>
+          </ul>
+          <p class="section-note">完整列表见 <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener noreferrer">ResearchGate</a>。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>项目</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <div>
+            <div class="project-title">技巧驱动的音系调制</div>
+            <div class="project-desc">
+              ZeroOpera 的一部分。把尖团音、上口字等离散的戏曲发音规则映射为连续控制信号,在语言特征层做 FiLM 调制,不依赖细粒度音素对齐,实现对未见音节的零样本泛化。
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-title">可控演唱技巧</div>
+            <div class="project-desc">
+              基于 SoulX-Singer。用 GeMAPS 特征解耦音色与技巧,对段落级特征做无监督聚类,得到气声、烟嗓、高爆发等潜在表征,由声学规划模块预测。字级别控制开发中。数据:采集 200 万+ 首,清洗保留 55 万首干声。
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-title">时空数据的生成式先验</div>
+            <div class="project-desc">
+              用 Flow Matching 与潜空间扩散,弥合 CFD 超高分辨率风场、CMIP6 多模式模拟场与真实观测之间的差距;并用多任务学习和注意力机制融合不同地学模态。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="experience">
+      <h2>教育与经历</h2>
+
+      <div class="experience-awards-grid">
+        <div class="info-panel">
+          <h3>教育与经历</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">FDU</div>
+              <div>
+                <div class="timeline-time">2025.09 – 至今</div>
+                <div class="timeline-title">博士研究生,复旦大学 &amp; 上海创智学院</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">SAIS</div>
+              <div>
+                <div class="timeline-time">2024.10 – 2025.09</div>
+                <div class="timeline-title">科研助理,上海科学智能研究院</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">NMIC</div>
+              <div>
+                <div class="timeline-time">2024.01 – 2024.09</div>
+                <div class="timeline-title">科研助理,国家气象信息中心</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">PLA</div>
+              <div>
+                <div class="timeline-time">2022.01 – 2023.12</div>
+                <div class="timeline-title">作战指挥参谋,中国人民解放军</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">SEU</div>
+              <div>
+                <div class="timeline-time">2019.08 – 2021.12</div>
+                <div class="timeline-title">硕士,战略支援部队航天工程大学 &amp; 国家气象信息中心</div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="school-mark" aria-hidden="true">XDU</div>
+              <div>
+                <div class="timeline-time">2015.08 – 2019.06</div>
+                <div class="timeline-title">本科,西安电子科技大学</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-panel">
+          <h3>奖项</h3>
+          <div class="award-list">
+            <span class="award-chip">第 7 届全军数学建模竞赛 全军二等奖(2022)</span>
+            <span class="award-chip">“华为杯”研究生数学建模竞赛 全国二等奖(2020)</span>
+            <span class="award-chip">EGU 2026 highlight oral</span>
+          </div>
+
+          <details>
+            <summary>专利与软件著作权</summary>
+            <div class="award-list">
+              <span class="award-chip">发明专利 CN18520720A:一种计算流固耦合的自适应网格方法</span>
+              <span class="award-chip">软著 2020SR1519123:疫情数据采集与分析平台 V5.7</span>
+              <span class="award-chip">软著 2020SR1519122:疫情知识库可视化平台</span>
+              <span class="award-chip">英语六级(451)</span>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2026 铁瑞安 · 最后更新 2026.10
+  </footer>
+</body>
+</html>
