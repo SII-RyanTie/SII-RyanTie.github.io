@@ -638,3 +638,12 @@ details[open] summary {
   line-height: 1.6;
   vertical-align: 1px;
 }
+
+.piano-video {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin-top: 12px;
+  border-radius: 14px;
+  background: #000;
+}
