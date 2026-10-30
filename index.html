@@ -40,7 +40,7 @@
         </p>
 
         <div class="links">
-          <a class="pill-link" href="/assets/CV_Ruian_Tie_EN.pdf?v=20261031d" target="_blank" rel="noopener noreferrer">CV</a>
+          <button class="pill-link" id="cv-open" type="button">CV</button>
           <a class="pill-link" href="mailto:25113050118@m.fudan.edu.cn">Email</a>
           <a class="pill-link" href="https://github.com/SII-RyanTie" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a class="pill-link" href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener noreferrer">ResearchGate</a>
@@ -307,8 +307,22 @@
   </main>
 
   <div class="keys keys-footer" aria-hidden="true" style="max-width:1040px;margin-left:auto;margin-right:auto"></div>
+  <dialog id="cv-dialog" data-wrong="Wrong password." data-working="Decrypting…">
+    <form id="cv-form" method="dialog">
+      <h3>CV is password protected</h3>
+      <p>Enter the password to view it. To request access, <a href="mailto:25113050118@m.fudan.edu.cn">email me</a>.</p>
+      <input id="cv-password" type="password" placeholder="Password" autocomplete="off" required>
+      <div id="cv-msg" role="status"></div>
+      <div class="cv-actions">
+        <button type="button" id="cv-cancel">Cancel</button>
+        <button type="submit" class="primary">View CV</button>
+      </div>
+    </form>
+  </dialog>
+
   <footer class="footer">
     © 2026 Ruian Tie · Last updated Oct 2026
   </footer>
+  <script src="/assets/cv-gate.js?v=1"></script>
 </body>
 </html>

@@ -155,3 +155,40 @@ h2::after {
   .hero { padding-top: 60px; }
   .hero::before { top: 14px; }
 }
+
+/* CV password dialog */
+button.pill-link { font: inherit; font-size: 14.5px; line-height: 1.5; cursor: pointer; }
+#cv-dialog {
+  width: min(92vw, 380px);
+  padding: 22px 24px;
+  border: 1px solid var(--gold);
+  border-radius: 12px;
+  background: #fffcf6;
+  color: var(--text);
+  box-shadow: 0 30px 60px -20px rgba(40, 20, 0, 0.5);
+}
+#cv-dialog::backdrop { background: rgba(23, 18, 15, 0.55); }
+#cv-dialog h3 { margin: 0 0 6px; font-size: 20px; }
+#cv-dialog p { margin: 0 0 12px; font-size: 14.5px; color: var(--subtle); }
+#cv-password {
+  width: 100%;
+  padding: 9px 12px;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+#cv-password:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+#cv-msg { min-height: 20px; margin-top: 6px; font-size: 13.5px; color: var(--link); }
+.cv-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px; }
+.cv-actions button {
+  padding: 6px 16px;
+  font: inherit;
+  font-size: 14.5px;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--link);
+  cursor: pointer;
+}
+.cv-actions button.primary { background: var(--link); color: #fff; border-color: var(--link); }
