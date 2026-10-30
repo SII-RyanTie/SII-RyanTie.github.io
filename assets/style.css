@@ -642,10 +642,51 @@ details[open] summary {
 .piano-video {
   display: block;
   width: 100%;
-  max-width: min(100%, 640px);
-  height: auto;
   aspect-ratio: 16 / 9;
-  margin-top: 12px;
   border-radius: 14px;
   background: #000;
+}
+
+.piece {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.piece-title {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.piece-sub {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.piece-desc {
+  margin: 10px 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--subtle);
+}
+
+.piece-meta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--chip-text);
+  font-size: 13px;
+}
+
+@media (max-width: 820px) {
+  .piece {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
 }
