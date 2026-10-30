@@ -624,3 +624,10 @@ details[open] summary {
     gap: 0;
   }
 }
+
+.school-logo-tint {
+  background: #dfe5ee;
+  object-fit: cover;
+  object-position: 50% 40%;
+  padding: 0;
+}
