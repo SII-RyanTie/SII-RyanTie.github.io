@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ruian Tie (铁瑞安)</title>
-  <meta name="description" content="Ruian Tie — PhD student at Fudan University & Shanghai Innovation Institute. Generative models for singing voice synthesis and climate downscaling.">
+  <meta name="author" content="Ruian Tie">
+  <meta name="description" content="Ruian Tie — Ph.D. student at Fudan University & Shanghai Innovation Institute. Generative models for singing voice synthesis and climate downscaling.">
+  <link rel="icon" href="images/ruian.jpg">
   <link rel="stylesheet" href="style.css">
   <script>
     // Apply saved/browser language before first paint to avoid a flash.
@@ -16,244 +18,168 @@
   </script>
 </head>
 <body>
+<div class="page">
 
-<header class="topbar">
-  <nav>
-    <a href="#about"><span class="zh">简介</span><span class="en">About</span></a>
-    <a href="#news"><span class="zh">动态</span><span class="en">News</span></a>
-    <a href="#publications"><span class="zh">论文</span><span class="en">Publications</span></a>
-    <a href="#projects"><span class="zh">项目</span><span class="en">Projects</span></a>
-    <a href="#background"><span class="zh">经历</span><span class="en">Background</span></a>
-    <a href="#honors"><span class="zh">荣誉</span><span class="en">Honors</span></a>
-  </nav>
   <button id="lang-toggle" type="button" aria-label="Switch language">
-    <span class="zh">EN</span><span class="en">中文</span>
+    <span class="zh">English</span><span class="en">中文</span>
   </button>
-</header>
 
-<main>
+  <!-- Bio -->
+  <section class="bio-row">
+    <div class="bio-text">
+      <h1 class="name"><span class="zh">铁瑞安</span><span class="en">Ruian Tie</span></h1>
 
-  <!-- About -->
-  <section id="about" class="hero">
-    <div class="avatar" aria-hidden="true">RT</div>
-    <div class="hero-text">
-      <h1>
-        <span class="zh">铁瑞安</span>
-        <span class="en">Ruian Tie</span>
-        <small class="alt"><span class="zh">Ruian Tie</span><span class="en">铁瑞安</span></small>
-      </h1>
-      <p class="affil">
-        <span class="zh">复旦大学 &amp; 上海创智学院 · 博士研究生(2025.09 至今)</span>
-        <span class="en">Ph.D. student, Fudan University &amp; Shanghai Innovation Institute (since Sep 2025)</span>
+      <div class="zh">
+        <p>
+          我是复旦大学与上海创智学院联合培养的博士生。本科毕业于西安电子科技大学,硕士阶段在战略支援部队航天工程大学与国家气象信息中心联合培养,从深度学习气象降尺度做起;随后在部队担任作战指挥参谋两年,再回到国家气象信息中心和上海科学智能研究院做科研,2025 年秋季开始读博。
+        </p>
+        <p>
+          我关心的是:<strong>预训练好的生成式先验,能不能在不重新训练的前提下被复用到新的任务和新的域上</strong>。目前这条线分成两个方向:一是零样本<strong>歌声合成</strong>,特别是戏曲这类低资源垂域,以及演唱技巧的可控生成;二是用 Flow Matching 和扩散模型做<strong>气候与高维时空数据的降尺度</strong>。
+        </p>
+      </div>
+      <div class="en">
+        <p>
+          I am a Ph.D. student at Fudan University and Shanghai Innovation Institute. I did my B.S. at Xidian University and my M.S. at the PLA Space Engineering University jointly with the National Meteorological Information Center (NMIC), starting out with deep-learning downscaling of weather fields. After two years as an operations staff officer in the PLA, I went back to research at NMIC and the Shanghai Academy of AI for Science, and began my Ph.D. in the fall of 2025.
+        </p>
+        <p>
+          The question I keep coming back to: <strong>can a pretrained generative prior be reused on a new task or domain without retraining?</strong> Right now that plays out in two places: zero-shot <strong>singing voice synthesis</strong>, especially low-resource domains like Peking opera and controllable singing techniques; and <strong>downscaling climate and other high-dimensional spatiotemporal data</strong> with flow matching and diffusion models.
+        </p>
+      </div>
+
+      <p class="linkrow">
+        <a href="mailto:25113050118@m.fudan.edu.cn">Email</a> &nbsp;/&nbsp;
+        <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a> &nbsp;/&nbsp;
+        <a href="https://github.com/SII-RyanTie" target="_blank" rel="noopener">GitHub</a>
       </p>
-      <p class="bio zh">
-        我研究生成式模型(Flow Matching、扩散模型)及其在两类问题上的应用:
-        <strong>零样本歌声合成</strong>——尤其是戏曲等低资源垂域与可控演唱技巧;
-        以及<strong>气候与高维时空数据的统计降尺度</strong>。
-        此前在国家气象信息中心、上海科学智能研究院从事 AI for Weather &amp; Climate 研究。
-      </p>
-      <p class="bio en">
-        I work on generative models (flow matching, diffusion) and two applications of them:
-        <strong>zero-shot singing voice synthesis</strong>, especially low-resource domains such as Peking opera and controllable singing techniques;
-        and <strong>statistical downscaling of climate and other high-dimensional spatiotemporal data</strong>.
-        Previously I did AI-for-weather-and-climate research at the National Meteorological Information Center and the Shanghai Academy of AI for Science.
-      </p>
-      <ul class="links">
-        <li><a href="mailto:25113050118@m.fudan.edu.cn">Email</a></li>
-        <li><a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a></li>
-      </ul>
+    </div>
+    <div class="bio-photo">
+      <img src="images/ruian.jpg" alt="Ruian Tie" width="128" height="128">
     </div>
   </section>
 
   <!-- News -->
-  <section id="news">
-    <h2><span class="zh">近期动态</span><span class="en">News</span></h2>
-    <ul class="news">
-      <li><time>2026.10</time>
-        <span class="zh">第一作者论文 <em>ZeroOpera</em> 投稿 ICLR 2027。</span>
-        <span class="en">First-author paper <em>ZeroOpera</em> submitted to ICLR 2027.</span></li>
-      <li><time>2026</time>
+  <section>
+    <h2><span class="zh">动态</span><span class="en">News</span></h2>
+    <div class="rows">
+      <div class="row"><span class="date">Oct 2026</span>
+        <span class="zh">一作论文 <em>ZeroOpera</em> 投稿 ICLR 2027。</span>
+        <span class="en">First-author paper <em>ZeroOpera</em> submitted to ICLR 2027.</span></div>
+      <div class="row"><span class="date">2026</span>
         <span class="zh"><em>Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</em> 被 NeurIPS 2026 接收。</span>
-        <span class="en"><em>Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</em> accepted to NeurIPS 2026.</span></li>
-      <li><time>2026</time>
-        <span class="zh">3D 风场重建工作(共同一作)发表于 <em>Nature Communications</em>。</span>
-        <span class="en">Co-first-author work on 3D wind-field reconstruction published in <em>Nature Communications</em>.</span></li>
-      <li><time>2026</time>
-        <span class="zh">气候极端事件生成式预估工作入选 EGU 2026 年会 highlight oral。</span>
-        <span class="en">Generative projection of climate extremes selected as a highlight oral at EGU General Assembly 2026.</span></li>
-    </ul>
+        <span class="en"><em>Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</em> accepted to NeurIPS 2026.</span></div>
+      <div class="row"><span class="date">2026</span>
+        <span class="zh">三维风场重建工作(共同一作)发表于 <em>Nature Communications</em>。</span>
+        <span class="en">Co-first-author work on 3D wind-field reconstruction published in <em>Nature Communications</em>.</span></div>
+      <div class="row"><span class="date">2026</span>
+        <span class="zh">气候极端事件的生成式预估工作入选 EGU 2026 年会 highlight oral。</span>
+        <span class="en">Generative projection of climate extremes selected as a highlight oral at EGU General Assembly 2026.</span></div>
+    </div>
   </section>
 
-  <!-- Publications -->
-  <section id="publications">
-    <h2><span class="zh">论文</span><span class="en">Publications</span></h2>
+  <!-- Research -->
+  <section>
+    <h2><span class="zh">研究</span><span class="en">Research</span></h2>
     <p class="note">
-      <span class="zh">* 共同第一作者。完整列表见 <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a>。</span>
-      <span class="en">* Equal contribution. Full list on <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a>.</span>
+      <span class="zh">* 表示共同第一作者。完整列表见 <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a>。</span>
+      <span class="en">* denotes equal contribution. Full list on <a href="https://www.researchgate.net/profile/Ruian-Tie" target="_blank" rel="noopener">ResearchGate</a>.</span>
     </p>
 
-    <h3><span class="zh">在投</span><span class="en">Under review</span></h3>
-    <ol class="pubs" reversed start="7">
-      <li>
-        <div class="title">ZeroOpera: Zero-Shot Peking Opera Singing Voice Synthesis via Prior-Guided Inpainting and Enhancement</div>
+    <!-- ZeroOpera -->
+    <div class="paper">
+      <div class="thumb t-audio"><b>ICLR</b><span>2027</span></div>
+      <div class="paper-text">
+        <div class="ptitle">ZeroOpera: Zero-Shot Peking Opera Singing Voice Synthesis via Prior-Guided Inpainting and Enhancement</div>
         <div class="authors"><b>R. Tie</b>, et al.</div>
-        <div class="venue"><span class="badge pending">ICLR 2027 <span class="zh">在投</span><span class="en">under review</span></span></div>
-        <div class="tags"><span>Singing Voice Synthesis</span><span>Acoustic Inpainting</span><span>FiLM</span></div>
-      </li>
-    </ol>
+        <div class="venue"><em><span class="zh">在投 ICLR 2027,第一作者</span><span class="en">Under review at ICLR 2027 · first author</span></em></div>
+        <p class="blurb zh">在低资源的戏曲数据上直接微调歌声合成基座会遗忘音色克隆能力。我们把流行乐基座生成的 Mel 谱当作结构先验,用掩码做局部修复与全局增强;再用技巧驱动的音系调制模块(TPM)对尖团音、上口字等未见发音做 FiLM 调制,不依赖细粒度音素对齐。相比 SoulX-Singer,PER 降低 19.4%,音色相似度提升 0.43 MOS。</p>
+        <p class="blurb en">Fine-tuning a singing-voice foundation model on small opera data makes it forget zero-shot timbre cloning. We treat a Mel-spectrogram from a pop-music base model as a structural prior, then inpaint locally with a mask and enhance opera techniques globally. A technique-driven phonological modulation module (TPM) applies FiLM modulation for unseen opera pronunciations, with no fine-grained phoneme alignment. Versus SoulX-Singer: 19.4% lower PER and +0.43 MOS timbre similarity.</p>
+      </div>
+    </div>
 
-    <h3><span class="zh">已发表 / 已接收</span><span class="en">Published / accepted</span></h3>
-    <ol class="pubs" reversed start="6">
-      <li>
-        <div class="title">Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</div>
+    <!-- DPS downscaling -->
+    <div class="paper">
+      <div class="thumb t-climate"><b>NeurIPS</b><span>2026</span></div>
+      <div class="paper-text">
+        <div class="ptitle">Zero-Shot Statistical Downscaling via Diffusion Posterior Sampling</div>
         <div class="authors"><b>R. Tie</b>, W. Xiong, Z. Shi, et al.</div>
-        <div class="venue"><em>NeurIPS 2026</em>, <span class="zh">第一作者</span><span class="en">first author</span>
-          <span class="badge accepted"><span class="zh">已接收</span><span class="en">accepted</span></span></div>
-        <div class="tags"><span>Diffusion Prior</span><span>Posterior Sampling</span><span>Progressive Distillation</span></div>
+        <div class="venue"><em>NeurIPS 2026</em> · <span class="zh">第一作者</span><span class="en">first author</span></div>
+        <p class="blurb zh">基于潜空间 Diffusion Posterior Sampling,结合扩散先验与渐进式蒸馏,无需重新训练、也无需成对数据即可做统计降尺度。</p>
+        <p class="blurb en">Statistical downscaling with latent diffusion posterior sampling, a diffusion prior and progressive distillation: no retraining and no paired data.</p>
         <div class="plinks"><a href="https://arxiv.org/abs/2601.21760" target="_blank" rel="noopener">arXiv</a></div>
-      </li>
-      <li>
-        <div class="title">Reconstructing fine-scale 3D wind fields with terrain-informed machine learning</div>
+      </div>
+    </div>
+
+    <!-- Nature Comms -->
+    <div class="paper">
+      <div class="thumb t-nature"><b>Nature</b><span>Commun.</span></div>
+      <div class="paper-text">
+        <div class="ptitle">Reconstructing fine-scale 3D wind fields with terrain-informed machine learning</div>
         <div class="authors">C. Lin*, <b>R. Tie*</b>, S. Yi, et al.</div>
-        <div class="venue"><em>Nature Communications</em>, 2026, <span class="zh">共同第一作者</span><span class="en">co-first author</span></div>
-        <div class="tags"><span>Domain Transfer</span><span>Data Assimilation</span></div>
-      </li>
-      <li>
-        <div class="title">Generative artificial intelligence improves projections of climate extremes</div>
+        <div class="venue"><em>Nature Communications</em>, 2026 · <span class="zh">共同第一作者</span><span class="en">co-first author</span></div>
+        <p class="blurb zh">结合地形信息的机器学习,重建精细尺度的三维风场;涉及域迁移与数据同化。</p>
+        <p class="blurb en">Terrain-informed machine learning for reconstructing fine-scale 3D wind fields, involving domain transfer and data assimilation.</p>
+      </div>
+    </div>
+
+    <!-- Generative AI climate extremes -->
+    <div class="paper">
+      <div class="thumb t-climate2"><b>EGU</b><span>2026</span></div>
+      <div class="paper-text">
+        <div class="ptitle">Generative artificial intelligence improves projections of climate extremes</div>
         <div class="authors"><b>R. Tie</b>, X. Zhong, Z. Shi, et al.</div>
-        <div class="venue"><em>arXiv:2508.16396</em>, 2025 · <span class="zh">EGU 2026 highlight oral,第一作者</span><span class="en">EGU 2026 highlight oral, first author</span></div>
-        <div class="tags"><span>Flow Matching</span><span>Domain Adaptation</span><span>Latent Diffusion</span></div>
+        <div class="venue"><em>arXiv:2508.16396</em>, 2025 · <span class="zh">EGU 2026 highlight oral,第一作者</span><span class="en">EGU 2026 highlight oral · first author</span></div>
+        <p class="blurb zh">用 Flow Matching、域适应和潜空间扩散,改进气候模式对极端事件的预估。</p>
+        <p class="blurb en">Flow matching, domain adaptation and latent diffusion to improve climate-model projections of extremes.</p>
         <div class="plinks"><a href="https://arxiv.org/abs/2508.16396" target="_blank" rel="noopener">arXiv</a></div>
-      </li>
-      <li>
-        <div class="title">Improve the downscaling accuracy of high-resolution precipitation field using classification mask</div>
-        <div class="authors"><b>R. Tie</b>, C. Shi, M. Li, et al.</div>
-        <div class="venue"><em>Atmospheric Research</em>, 310: 107607, 2024 · <span class="zh">一区 Top,第一作者</span><span class="en">first author</span></div>
-        <div class="tags"><span>Multi-task Learning</span><span>Classification + Regression</span></div>
-      </li>
-      <li>
-        <div class="title">To accurately and lightly downscale the temperature field by deep learning</div>
-        <div class="authors"><b>R. Tie</b>, C. Shi, G. Wan, et al.</div>
-        <div class="venue"><em>Journal of Atmospheric and Oceanic Technology</em>, 39(4): 479–490, 2022 · <span class="zh">第一作者</span><span class="en">first author</span></div>
-        <div class="tags"><span>Multi-source Data Fusion</span></div>
-      </li>
-      <li>
-        <div class="title">CLDASSD: reconstructing fine textures of the temperature field using super-resolution technology</div>
-        <div class="authors"><b>R. Tie</b>, C. Shi, G. Wan, et al.</div>
-        <div class="venue"><em>Advances in Atmospheric Sciences</em>, 39(1): 117–130, 2022 · <span class="zh">一区 Top,第一作者</span><span class="en">first author</span></div>
-        <div class="tags"><span>Super-resolution</span><span>Attention</span><span>Residual Learning</span></div>
-      </li>
-    </ol>
-  </section>
+      </div>
+    </div>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2><span class="zh">项目</span><span class="en">Projects</span></h2>
-
-    <article class="card">
-      <header>
-        <h3>ZeroOpera</h3>
-        <span class="period">2026.05 – <span class="zh">至今</span><span class="en">present</span></span>
-      </header>
-      <p class="sub zh">基于大模型先验修复的零样本戏曲歌声合成</p>
-      <p class="sub en">Zero-shot Peking opera singing voice synthesis via prior-guided inpainting</p>
-      <ul class="zh">
-        <li><strong>声学修复(Acoustic Inpainting)</strong>:在低资源垂域上直接微调 SVS 基座模型,容易出现灾难性遗忘并削弱音色克隆能力。我们用流行乐基座生成的 Mel 谱作为结构先验,通过掩码机制局部重构、全局增强戏曲特有技巧,保留基座的 zero-shot 音色泛化能力,同时完成跨域风格迁移。</li>
-        <li><strong>技巧驱动的音系调制(TPM)</strong>:针对尖团音、上口字等戏曲特有发音带来的 OOV 问题,将离散的发音规则映射为连续控制信号,在语言特征层做 FiLM 调制,不再依赖细粒度音素对齐,实现对未见音节的零样本泛化。</li>
-        <li><strong>结果</strong>:相比强基座 SoulX-Singer,发音错误率(PER)降低 19.4%,音色相似度提升 0.43 MOS。第一作者,论文在投 ICLR 2027。</li>
-      </ul>
-      <ul class="en">
-        <li><strong>Acoustic inpainting.</strong> Fine-tuning an SVS foundation model on a small, specialized domain tends to cause catastrophic forgetting and degrade timbre cloning. We use a Mel-spectrogram generated by a pop-music base model as a structural prior, then reconstruct it locally with a mask and enhance opera-specific techniques globally — keeping the base model's zero-shot timbre generalization while transferring style across domains.</li>
-        <li><strong>Technique-driven Phonological Modulation (TPM).</strong> Opera-specific pronunciations (e.g. <em>jian-tuan yin</em>, <em>shang-kou zi</em>) create out-of-vocabulary problems. TPM maps discrete pronunciation rules to continuous control signals and applies FiLM modulation at the linguistic-feature level, removing the need for fine-grained phoneme alignment and generalizing zero-shot to unseen syllables.</li>
-        <li><strong>Results.</strong> Versus the strong SoulX-Singer baseline: 19.4% lower phoneme error rate (PER) and +0.43 MOS in timbre similarity. First-author paper, under review at ICLR 2027.</li>
-      </ul>
-    </article>
-
-    <article class="card">
-      <header>
-        <h3><span class="zh">字级别歌唱技巧控制</span><span class="en">Word-level singing-technique control</span></h3>
-        <span class="period">2026.05 – <span class="zh">至今</span><span class="en">present</span></span>
-      </header>
-      <p class="sub zh">零样本字级别歌唱技巧控制歌声合成</p>
-      <p class="sub en">Zero-shot singing voice synthesis with controllable singing techniques</p>
-      <ul class="zh">
-        <li><strong>大规模数据挖掘与清洗</strong>:独立完成跨平台超 200 万首原始音频采集,设计自动化清洗策略,提纯出 55 万首高质量干声数据。</li>
-        <li><strong>特征解耦</strong>:基于开源 SoulX-Singer 做二次开发。针对 zero-shot 音色克隆中音色与演唱技巧高度耦合的问题,引入 GeMAPS 声学参数集进行解耦。</li>
-        <li><strong>细粒度可控生成</strong>:提取段落级声学特征并无监督聚类,挖掘出与气声、烟嗓、高爆发等技巧相关的潜在表征;由声学规划模块预测并作为 condition 引入生成网络,实现对演唱技巧的独立控制。字级别控制正在开发中。</li>
-      </ul>
-      <ul class="en">
-        <li><strong>Large-scale data mining.</strong> Collected 2M+ raw tracks across platforms and built an automatic cleaning pipeline that yields 550K high-quality dry-vocal recordings.</li>
-        <li><strong>Feature disentanglement.</strong> Built on the open-source SoulX-Singer. To address the entanglement of timbre and singing technique in zero-shot cloning, we bring in the GeMAPS acoustic feature set.</li>
-        <li><strong>Fine-grained control.</strong> Segment-level acoustic features are clustered without supervision to surface latent representations tied to techniques such as breathy, smoky, and belting voice. An acoustic planner predicts them and feeds them to the generator as conditions, giving independent control over technique. Word-level control is in development.</li>
-      </ul>
-    </article>
-
-    <article class="card">
-      <header>
-        <h3><span class="zh">生成式先验的高维时空建模</span><span class="en">Generative priors for spatiotemporal modeling</span></h3>
-        <span class="period">2025.03 – 2026.04</span>
-      </header>
-      <p class="sub zh">高维时空序列建模与零样本生成</p>
-      <p class="sub en">High-dimensional spatiotemporal modeling and zero-shot generation</p>
-      <ul class="zh">
-        <li><strong>核心算法</strong>:面向 CFD 超高分辨率风场、CMIP6 多模式模拟场与真实观测不匹配的问题,主导设计基于 Flow Matching 与潜空间扩散的生成框架,缓解传统物理模型计算慢、精度低,以及传统降尺度依赖成对数据的限制。</li>
-        <li><strong>零样本后验采样</strong>:提出基于潜空间 Diffusion Posterior Sampling 的零样本统计降尺度算法,结合扩散先验与渐进式蒸馏,无需重新训练即可高保真重建。</li>
-        <li><strong>多源融合与域迁移</strong>:用多任务学习和注意力机制对齐、融合不同地学模态,提升跨域鲁棒性。</li>
-        <li><strong>产出</strong>:Nature Communications 论文(共同一作)、NeurIPS 2026 论文(一作)、EGU 2026 highlight oral。</li>
-      </ul>
-      <ul class="en">
-        <li><strong>Core algorithms.</strong> Real observations rarely match ultra-high-resolution CFD wind fields or multi-model CMIP6 simulations. I led the design of generative frameworks based on flow matching and latent diffusion, addressing the slowness and limited accuracy of physical models and the reliance of classical downscaling on paired data.</li>
-        <li><strong>Zero-shot posterior sampling.</strong> Proposed a zero-shot statistical downscaling method built on latent diffusion posterior sampling, combining a diffusion prior with progressive distillation for high-fidelity reconstruction without retraining.</li>
-        <li><strong>Multi-source fusion &amp; domain transfer.</strong> Multi-task learning and attention to align and fuse heterogeneous geoscience modalities, improving cross-domain robustness.</li>
-        <li><strong>Outputs.</strong> A Nature Communications paper (co-first author), a NeurIPS 2026 paper (first author), and an EGU 2026 highlight oral.</li>
-      </ul>
-    </article>
-  </section>
-
-  <!-- Background -->
-  <section id="background">
-    <h2><span class="zh">教育与经历</span><span class="en">Background</span></h2>
-    <ul class="timeline">
-      <li><time>2025.09 – <span class="zh">至今</span><span class="en">now</span></time>
-        <div><strong><span class="zh">复旦大学 &amp; 上海创智学院</span><span class="en">Fudan University &amp; Shanghai Innovation Institute</span></strong>
-        <span class="zh">博士研究生</span><span class="en">Ph.D. student</span></div></li>
-      <li><time>2024.10 – 2025.09</time>
-        <div><strong><span class="zh">上海科学智能研究院</span><span class="en">Shanghai Academy of AI for Science</span></strong>
-        <span class="zh">科研助理</span><span class="en">Research assistant</span></div></li>
-      <li><time>2024.01 – 2024.09</time>
-        <div><strong><span class="zh">国家气象信息中心</span><span class="en">National Meteorological Information Center</span></strong>
-        <span class="zh">科研助理</span><span class="en">Research assistant</span></div></li>
-      <li><time>2022.01 – 2023.12</time>
-        <div><strong><span class="zh">中国人民解放军某部队</span><span class="en">People's Liberation Army</span></strong>
-        <span class="zh">作战指挥参谋</span><span class="en">Operations staff officer</span></div></li>
-      <li><time>2019.08 – 2021.12</time>
-        <div><strong><span class="zh">战略支援部队航天工程大学 &amp; 国家气象信息中心</span><span class="en">Space Engineering University (PLA SSF) &amp; National Meteorological Information Center</span></strong>
-        <span class="zh">硕士研究生</span><span class="en">M.S.</span></div></li>
-      <li><time>2015.08 – 2019.06</time>
-        <div><strong><span class="zh">西安电子科技大学</span><span class="en">Xidian University</span></strong>
-        <span class="zh">本科</span><span class="en">B.S.</span></div></li>
+    <h3><span class="zh">更早的工作:深度学习降尺度</span><span class="en">Earlier work: deep-learning downscaling</span></h3>
+    <ul class="older">
+      <li><b>R. Tie</b>, C. Shi, M. Li, et al. <span class="ptitle-s">Improve the downscaling accuracy of high-resolution precipitation field using classification mask.</span> <em>Atmospheric Research</em>, 2024.</li>
+      <li><b>R. Tie</b>, C. Shi, G. Wan, et al. <span class="ptitle-s">To accurately and lightly downscale the temperature field by deep learning.</span> <em>Journal of Atmospheric and Oceanic Technology</em>, 2022.</li>
+      <li><b>R. Tie</b>, C. Shi, G. Wan, et al. <span class="ptitle-s">CLDASSD: reconstructing fine textures of the temperature field using super-resolution technology.</span> <em>Advances in Atmospheric Sciences</em>, 2022.</li>
     </ul>
   </section>
 
-  <!-- Honors -->
-  <section id="honors">
-    <h2><span class="zh">荣誉与成果</span><span class="en">Honors &amp; Other</span></h2>
-    <ul class="plain">
-      <li><span class="zh">第 7 届全军数学建模竞赛 全军二等奖(2022)</span><span class="en">2nd Prize, 7th All-Army Mathematical Modeling Contest (2022)</span></li>
-      <li><span class="zh">“华为杯”中国研究生数学建模竞赛 全国二等奖(2020)</span><span class="en">National 2nd Prize, Huawei Cup China Graduate Mathematical Contest in Modeling (2020)</span></li>
-      <li><span class="zh">发明专利:一种计算流固耦合的自适应网格方法(CN18520720A)</span><span class="en">Invention patent: an adaptive mesh method for fluid–structure interaction (CN18520720A)</span></li>
-      <li><span class="zh">软件著作权:疫情数据采集与分析平台 V5.7(2020SR1519123);疫情知识库可视化平台(2020SR1519122)</span><span class="en">Software copyrights: epidemic data collection &amp; analysis platform V5.7 (2020SR1519123); epidemic knowledge-base visualization platform (2020SR1519122)</span></li>
-      <li><span class="zh">英语六级(451)</span><span class="en">CET-6 (451)</span></li>
-    </ul>
+  <!-- Ongoing -->
+  <section>
+    <h2><span class="zh">进行中的工作</span><span class="en">Ongoing</span></h2>
+    <div class="paper">
+      <div class="thumb t-audio2"><b>SVS</b><span>2026</span></div>
+      <div class="paper-text">
+        <div class="ptitle"><span class="zh">零样本、字级别的歌唱技巧控制</span><span class="en">Zero-shot, word-level control of singing techniques</span></div>
+        <p class="blurb zh">在开源的 SoulX-Singer 上做二次开发。针对音色与演唱技巧耦合的问题,引入 GeMAPS 声学特征做解耦;对段落级声学特征做无监督聚类,挖出与气声、烟嗓、高爆发等技巧对应的潜在表征,由声学规划模块预测后作为条件送入生成网络。为此我自己采集了超过 200 万首原始音频,清洗得到 55 万首高质量干声。字级别控制正在开发中。</p>
+        <p class="blurb en">Built on the open-source SoulX-Singer. To untangle timbre from singing technique, we bring in GeMAPS acoustic features and cluster segment-level features without supervision, surfacing latent representations for breathy, smoky and belting voice; an acoustic planner predicts them as conditions for the generator. I collected 2M+ raw tracks and cleaned them down to 550K high-quality dry vocals. Word-level control is in development.</p>
+      </div>
+    </div>
   </section>
 
-</main>
+  <!-- Awards -->
+  <section>
+    <h2><span class="zh">奖项与成果</span><span class="en">Awards &amp; Other</span></h2>
+    <div class="rows">
+      <div class="row"><span class="date">2022</span>
+        <span class="zh">第 7 届全军数学建模竞赛 全军二等奖</span>
+        <span class="en">2nd Prize, 7th All-Army Mathematical Modeling Contest</span></div>
+      <div class="row"><span class="date">2020</span>
+        <span class="zh">“华为杯”中国研究生数学建模竞赛 全国二等奖</span>
+        <span class="en">National 2nd Prize, Huawei Cup China Graduate Mathematical Contest in Modeling</span></div>
+      <div class="row"><span class="date">Patent</span>
+        <span class="zh">发明专利:一种计算流固耦合的自适应网格方法(CN18520720A)</span>
+        <span class="en">Invention patent: an adaptive mesh method for fluid–structure interaction (CN18520720A)</span></div>
+      <div class="row"><span class="date">2020</span>
+        <span class="zh">软件著作权:疫情数据采集与分析平台 V5.7(2020SR1519123)、疫情知识库可视化平台(2020SR1519122)</span>
+        <span class="en">Software copyrights: epidemic data collection &amp; analysis platform V5.7 (2020SR1519123); epidemic knowledge-base visualization platform (2020SR1519122)</span></div>
+    </div>
+  </section>
 
-<footer>
-  <span>© 2026 Ruian Tie</span>
-  <span class="zh">最后更新:2026.10</span><span class="en">Last updated: Oct 2026</span>
-</footer>
+  <footer>
+    <span>© 2026 Ruian Tie</span>
+    <span class="zh">最后更新:2026.10</span><span class="en">Last updated: Oct 2026</span>
+  </footer>
 
+</div>
 <script src="script.js"></script>
 </body>
 </html>
