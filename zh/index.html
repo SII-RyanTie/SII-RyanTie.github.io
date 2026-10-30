@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="铁瑞安,复旦大学与上海创智学院博士生。研究生成式模型在歌声合成与气候降尺度中的应用。">
+  <meta name="description" content="铁瑞安,复旦大学与上海创智学院博士生。研究歌声合成与流式音乐生成,此前从事 AI for 大气科学。">
   <meta name="robots" content="index,follow">
   <meta property="og:type" content="website">
   <meta property="og:title" content="铁瑞安 | 个人主页">
-  <meta property="og:description" content="生成式模型在歌声合成与气候降尺度中的应用。">
+  <meta property="og:description" content="歌声合成与流式音乐生成;此前从事 AI for 大气科学。">
   <title>铁瑞安 | 个人主页</title>
   <link rel="icon" href="/assets/profile.jpg">
   <link rel="stylesheet" href="/assets/style.css">
@@ -20,7 +20,6 @@
       <div class="nav-links">
         <a href="#news">动态</a>
         <a href="#publications">论文</a>
-        <a href="#projects">项目</a>
         <a href="#experience">经历</a>
         <a href="/">English</a>
       </div>
@@ -36,7 +35,7 @@
         </p>
 
         <p class="about-line">
-          我研究生成式模型(Flow Matching、扩散模型),一直在想同一个问题:预训练好的生成式先验,能不能在不重新训练的前提下复用到新的任务和新的域上?目前这条线落在两个方向:零样本歌声合成(尤其是戏曲这类低资源垂域,以及演唱技巧的可控生成),以及气候与高维时空数据的降尺度。
+          我是复旦大学与上海创智学院的博士生。我最早做的是 AI for 大气科学,主要研究气象与气候数据的降尺度;现在转向生成式音频,研究歌声合成(包括戏曲等低资源风格)和流式音乐生成。
         </p>
 
         <div class="links">
@@ -163,38 +162,6 @@
       </div>
     </section>
 
-    <section class="card" id="projects">
-      <h2>项目</h2>
-
-      <div class="project-grid">
-        <div class="project-card">
-          <div>
-            <div class="project-title">技巧驱动的音系调制</div>
-            <div class="project-desc">
-              ZeroOpera 的一部分。把尖团音、上口字等离散的戏曲发音规则映射为连续控制信号,在语言特征层做 FiLM 调制,不依赖细粒度音素对齐,实现对未见音节的零样本泛化。
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div>
-            <div class="project-title">可控演唱技巧</div>
-            <div class="project-desc">
-              基于 SoulX-Singer。用 GeMAPS 特征解耦音色与技巧,对段落级特征做无监督聚类,得到气声、烟嗓、高爆发等潜在表征,由声学规划模块预测。字级别控制开发中。数据:采集 200 万+ 首,清洗保留 55 万首干声。
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div>
-            <div class="project-title">时空数据的生成式先验</div>
-            <div class="project-desc">
-              用 Flow Matching 与潜空间扩散,弥合 CFD 超高分辨率风场、CMIP6 多模式模拟场与真实观测之间的差距;并用多任务学习和注意力机制融合不同地学模态。
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="card" id="experience">
       <h2>教育与经历</h2>
