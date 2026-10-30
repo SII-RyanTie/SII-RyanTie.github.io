@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="EGU 2026 Climate extremes projection">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a8f6b"/><stop offset="1" stop-color="#3b9ad0"/></linearGradient></defs>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b4a22"/><stop offset="1" stop-color="#c29a55"/></linearGradient></defs>
   <rect width="480" height="300" fill="url(#g)"/>
   <ellipse cx="330" cy="215" rx="45.0" ry="21" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
   <ellipse cx="330" cy="215" rx="84.0" ry="39" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
@@ -9,6 +9,6 @@
   <ellipse cx="330" cy="215" rx="240.0" ry="112" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
   <ellipse cx="330" cy="215" rx="279.0" ry="130" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
   <ellipse cx="330" cy="215" rx="318.0" ry="148" fill="none" stroke="#fff" stroke-width="2" opacity="0.2"/>
-  <text x="40" y="112" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#fff" letter-spacing="-1">EGU 2026</text>
-  <text x="42" y="146" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#fff" opacity="0.88">Climate extremes projection</text>
+  <text x="40" y="112" font-family="Georgia, 'Songti SC', serif" font-size="44" font-weight="700" fill="#fff" letter-spacing="-1">EGU 2026</text>
+  <text x="42" y="146" font-family="Georgia, 'Songti SC', serif" font-size="19" font-style="italic" fill="#fff" opacity="0.9">Climate extremes projection</text>
 </svg>

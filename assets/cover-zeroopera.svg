@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="ICLR 2027 Singing voice synthesis">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d4bd1"/><stop offset="1" stop-color="#d14f8c"/></linearGradient></defs>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a2438"/><stop offset="1" stop-color="#a0475b"/></linearGradient></defs>
   <rect width="480" height="300" fill="url(#g)"/>
   <rect x="40" y="228.0" width="5" height="14.0" rx="2.5" fill="#fff" opacity="0.28"/>
   <rect x="50" y="218.9" width="5" height="32.2" rx="2.5" fill="#fff" opacity="0.28"/>
@@ -41,6 +41,6 @@
   <rect x="410" y="227.9" width="5" height="14.3" rx="2.5" fill="#fff" opacity="0.28"/>
   <rect x="420" y="227.3" width="5" height="15.5" rx="2.5" fill="#fff" opacity="0.28"/>
   <rect x="430" y="226.4" width="5" height="17.3" rx="2.5" fill="#fff" opacity="0.28"/>
-  <text x="40" y="112" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#fff" letter-spacing="-1">ICLR 2027</text>
-  <text x="42" y="146" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#fff" opacity="0.88">Singing voice synthesis</text>
+  <text x="40" y="112" font-family="Georgia, 'Songti SC', serif" font-size="44" font-weight="700" fill="#fff" letter-spacing="-1">ICLR 2027</text>
+  <text x="42" y="146" font-family="Georgia, 'Songti SC', serif" font-size="19" font-style="italic" fill="#fff" opacity="0.9">Singing voice synthesis</text>
 </svg>
