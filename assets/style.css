@@ -624,3 +624,17 @@ details[open] summary {
     gap: 0;
   }
 }
+
+.rank {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #fff4e0;
+  border: 1px solid #f3d9a4;
+  color: #8a5a00;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.6;
+  vertical-align: 1px;
+}
